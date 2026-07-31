@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img"><defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#eaf3ec"/><stop offset="1" stop-color="#f7faf6"/>
+  </linearGradient>
+  <linearGradient id="skyWarm" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fdf3dc"/><stop offset="1" stop-color="#f7faf6"/>
+  </linearGradient>
+  <linearGradient id="deep" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#084f2b"/><stop offset="1" stop-color="#0b6b3a"/>
+  </linearGradient>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef3ee"/>
+  </linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d8c3a1"/><stop offset="1" stop-color="#c2a883"/>
+  </linearGradient>
+  <linearGradient id="turf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f8f52"/><stop offset="1" stop-color="#084f2b"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#cfe6f2"/><stop offset="1" stop-color="#9fc6da"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#f2a900"/>
+  </linearGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0e1a14" flood-opacity=".18"/>
+  </filter>
+  <filter id="tight" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0e1a14" flood-opacity=".22"/>
+  </filter>
+  
+</defs><rect width="800" height="600" fill="url(#wall)"/>
+  <rect y="444.0" width="800" height="156.0" fill="url(#floor)"/>
+  <rect x="60" y="60" width="300" height="170" rx="8" fill="#ffffff" filter="url(#soft)"/>
+  <path d="M210 60v170" stroke="#cfd8d1" stroke-width="4"/>
+  <rect x="420" y="70" width="320" height="180" rx="8" fill="url(#glass)" opacity=".85"/>
+  <path d="M420 70h320v180H420z" fill="none" stroke="#ffffff" stroke-width="12"/>
+  <path d="M580 70v180" stroke="#ffffff" stroke-width="8"/>
+  <rect x="40" y="378" width="720" height="26" rx="7" fill="#cfd8d1"/>
+  <rect x="40" y="404" width="720" height="40.0" fill="#ffffff"/>
+  <path d="M300 404v40.0M520 404v40.0" stroke="#cfd8d1" stroke-width="4"/>
+  <!-- stainless range -->
+  <rect x="320" y="404" width="180" height="40.0" fill="#dfe4e2"/>
+  <rect x="336" y="424" width="148" height="16" rx="8" fill="#aab5ad"/>
+  <!-- faucet + sink -->
+  <path d="M600 378 q0 -60 46 -60 q22 0 22 22" stroke="#aab5ad" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <rect x="596" y="368" width="112" height="12" rx="6" fill="#aab5ad" opacity=".7"/>
+  <ellipse cx="180" cy="368" rx="46" ry="14" fill="#bfe6cd"/>
+  <circle cx="164" cy="358" r="11" fill="#f2a900"/><circle cx="188" cy="356" r="11" fill="#ffd166"/>
+  <path d="M430 314Q433.52 326.48 446 330Q433.52 333.52 430 346Q426.48 333.52 414 330Q426.48 326.48 430 314Z" fill="#f2a900" opacity=".95"/><path d="M478 290Q480.2 297.8 488 300Q480.2 302.2 478 310Q475.8 302.2 468 300Q475.8 297.8 478 290Z" fill="#f2a900" opacity=".95"/><path d="M268 306Q270.64 315.36 280 318Q270.64 320.64 268 330Q265.36 320.64 256 318Q265.36 315.36 268 306Z" fill="#f2a900" opacity=".95"/><path d="M672 327Q674.42 335.58 683 338Q674.42 340.42 672 349Q669.58 340.42 661 338Q669.58 335.58 672 327Z" fill="#f2a900" opacity=".95"/><path d="M120 291Q121.98 298.02 129 300Q121.98 301.98 120 309Q118.02 301.98 111 300Q118.02 298.02 120 291Z" fill="#f2a900" opacity=".95"/>
+  <ellipse cx="400" cy="516.0" rx="300" ry="26" fill="#ffd166" opacity=".16"/></svg>

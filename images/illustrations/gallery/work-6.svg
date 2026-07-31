@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img"><defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#eaf3ec"/><stop offset="1" stop-color="#f7faf6"/>
+  </linearGradient>
+  <linearGradient id="skyWarm" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fdf3dc"/><stop offset="1" stop-color="#f7faf6"/>
+  </linearGradient>
+  <linearGradient id="deep" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#084f2b"/><stop offset="1" stop-color="#0b6b3a"/>
+  </linearGradient>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef3ee"/>
+  </linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d8c3a1"/><stop offset="1" stop-color="#c2a883"/>
+  </linearGradient>
+  <linearGradient id="turf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f8f52"/><stop offset="1" stop-color="#084f2b"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#cfe6f2"/><stop offset="1" stop-color="#9fc6da"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#f2a900"/>
+  </linearGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0e1a14" flood-opacity=".18"/>
+  </filter>
+  <filter id="tight" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0e1a14" flood-opacity=".22"/>
+  </filter>
+  
+</defs><rect width="800" height="600" fill="#e7ece8"/>
+  <!-- door face, close crop -->
+  <rect x="60" width="680" height="600" fill="url(#wall)"/>
+  <rect x="120" y="70" width="500" height="460" rx="10" fill="none" stroke="#cfd8d1" stroke-width="8"/>
+  <rect x="170" y="120" width="400" height="360" rx="6" fill="#f7faf6" opacity=".7"/>
+  <!-- handle plate + lever -->
+  <g filter="url(#soft)">
+    <rect x="600" y="250" width="52" height="130" rx="24" fill="#aab5ad"/>
+    <rect x="608" y="258" width="36" height="114" rx="18" fill="#e3e9e6"/>
+    <circle cx="626" cy="292" r="17" fill="#aab5ad"/>
+    <rect x="524" y="300" width="106" height="24" rx="12" fill="#aab5ad"/>
+    <rect x="530" y="305" width="94" height="12" rx="6" fill="#eef2f0"/>
+  </g>
+  <!-- screwdriver -->
+  <g filter="url(#tight)">
+    <rect x="366" y="404" width="120" height="26" rx="12" fill="#f2a900" transform="rotate(-24 426 417)"/>
+    <rect x="470" y="392" width="90" height="9" rx="4" fill="#aab5ad" transform="rotate(-24 515 396)"/>
+  </g>
+  <!-- shallow-DOF vignette -->
+  <rect width="800" height="600" fill="#0e1a14" opacity=".04"/>
+  <rect y="0" width="800" height="120" fill="#ffffff" opacity=".25"/>
+  <rect y="480" width="800" height="120" fill="#0e1a14" opacity=".06"/>
+  <path d="M700 229Q702.42 237.58 711 240Q702.42 242.42 700 251Q697.58 242.42 689 240Q697.58 237.58 700 229Z" fill="#f2a900" opacity=".95"/><path d="M560 260Q561.76 266.24 568 268Q561.76 269.76 560 276Q558.24 269.76 552 268Q558.24 266.24 560 260Z" fill="#f2a900" opacity=".95"/></svg>

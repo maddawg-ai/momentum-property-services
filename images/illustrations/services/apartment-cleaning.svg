@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" role="img"><defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#eaf3ec"/><stop offset="1" stop-color="#f7faf6"/>
+  </linearGradient>
+  <linearGradient id="skyWarm" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#fdf3dc"/><stop offset="1" stop-color="#f7faf6"/>
+  </linearGradient>
+  <linearGradient id="deep" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#084f2b"/><stop offset="1" stop-color="#0b6b3a"/>
+  </linearGradient>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#eef3ee"/>
+  </linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#d8c3a1"/><stop offset="1" stop-color="#c2a883"/>
+  </linearGradient>
+  <linearGradient id="turf" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#2f8f52"/><stop offset="1" stop-color="#084f2b"/>
+  </linearGradient>
+  <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#cfe6f2"/><stop offset="1" stop-color="#9fc6da"/>
+  </linearGradient>
+  <linearGradient id="goldGrad" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffd166"/><stop offset="1" stop-color="#f2a900"/>
+  </linearGradient>
+  <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="6" stdDeviation="10" flood-color="#0e1a14" flood-opacity=".18"/>
+  </filter>
+  <filter id="tight" x="-20%" y="-20%" width="140%" height="140%">
+    <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0e1a14" flood-opacity=".22"/>
+  </filter>
+  
+</defs><rect width="800" height="500" fill="url(#wall)"/>
+  <rect y="360.0" width="800" height="140.0" fill="#dfe5e0"/>
+  <!-- floor-to-ceiling glass + skyline -->
+  <rect x="60" y="46" width="330" height="316" rx="6" fill="url(#glass)"/>
+  <g opacity=".33" fill="#0e1a14">
+    <rect x="90" y="212" width="40" height="150"/><rect x="140" y="176" width="34" height="186"/>
+    <rect x="184" y="236" width="46" height="126"/><rect x="240" y="150" width="38" height="212"/>
+    <rect x="288" y="204" width="44" height="158"/><rect x="340" y="240" width="34" height="122"/>
+  </g>
+  <path d="M60 46h330v316H60z" fill="none" stroke="#ffffff" stroke-width="12"/>
+  <path d="M225 46v316" stroke="#ffffff" stroke-width="9"/>
+  <path d="M390 80 L690 362 L390 362Z" fill="#ffd166" opacity=".12"/>
+  <!-- light pooling on floor -->
+  <ellipse cx="420" cy="400.0" rx="240" ry="30" fill="#ffd166" opacity=".22"/>
+  <!-- mop + bucket -->
+  <g filter="url(#tight)">
+    <path d="M596 190 L556 372" stroke="#8a6a45" stroke-width="11" stroke-linecap="round"/>
+    <path d="M528 366 q28 -16 56 0 q-8 26 -28 26 q-20 0 -28 -26Z" fill="#bfe6cd"/>
+    <rect x="654" y="330" width="86" height="62" rx="9" fill="#0b6b3a"/>
+    <rect x="654" y="330" width="86" height="14" rx="7" fill="#084f2b"/>
+    <ellipse cx="697" cy="336" rx="30" ry="7" fill="#bfe6cd" opacity=".8"/>
+  </g>
+  <g filter="url(#tight)">
+  <ellipse cx="608" cy="396" rx="52.92" ry="7" fill="#0e1a14" opacity=".16"/>
+  <rect x="596.24" y="325.36" width="9.996" height="66.64" rx="7" fill="#2f3a33"/>
+  <rect x="609.764" y="325.36" width="9.996" height="66.64" rx="7" fill="#3a463f"/>
+  <path d="M580.952 254.8 q27.048 -11.76 54.096 0 l3.5279999999999996 78.4 q-30.576 13.72 -61.152 0 Z"
+        fill="url(#deep)"/>
+  <path d="M635.048 274.40000000000003 q28 -19.6 34 -43.12" stroke="#0b6b3a" stroke-width="16.66" stroke-linecap="round" fill="none"/>
+  <circle cx="608" cy="237.30700000000002" r="20.58" fill="#a9714a"/>
+  <path d="M587.42 231.133 q20.58 -17.493 41.16 0 q-20.58 -10.29 -41.16 0Z" fill="#0e1a14" opacity=".8"/>
+</g>
+  <path d="M470 138Q472.64 147.36 482 150Q472.64 152.64 470 162Q467.36 152.64 458 150Q467.36 147.36 470 138Z" fill="#f2a900" opacity=".95"/><path d="M506 188Q507.76 194.24 514 196Q507.76 197.76 506 204Q504.24 197.76 498 196Q504.24 194.24 506 188Z" fill="#f2a900" opacity=".95"/><path d="M742 200Q744.2 207.8 752 210Q744.2 212.2 742 220Q739.8 212.2 732 210Q739.8 207.8 742 200Z" fill="#f2a900" opacity=".95"/></svg>
